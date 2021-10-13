@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+/* normalize css */
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+body {
+    box-sizing: border-box;
+    font-family: 'Ariel', Helvetica, sans-serif;
+    font-weight: 200;
+    font-size: 3vw;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Anton', sans-serif;
+}
+
+h1 {
+    font-size: 24vw;
+}
+
+header {
+    background-color: cadetblue;
+    padding: 1em;
+}
+
+main {
+    background-color: cornsilk;
+    padding: 1em;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    background-color: darksalmon;
+    padding: 1em;
+}
+
+@media (max-width: 640px) {
+    body {
+        font-size: 19px;
+    }
+}
+
+@media (min-width: 1280px) {
+    body {
+        font-size: 38px;
+    }
+}
